@@ -11,6 +11,9 @@
 		E43EFA7F2A0F763400C2234B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43EFA7E2A0F763400C2234B /* ContentView.swift */; };
 		E43EFA812A0F763400C2234B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43EFA802A0F763400C2234B /* Assets.xcassets */; };
 		E43EFA842A0F763400C2234B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43EFA832A0F763400C2234B /* Preview Assets.xcassets */; };
+		E43EFA8B2A0F779800C2234B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43EFA8A2A0F779800C2234B /* Launch Screen.storyboard */; };
+		E43EFA8E2A0F781600C2234B /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E43EFA8D2A0F781600C2234B /* Realm */; };
+		E43EFA902A0F781600C2234B /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E43EFA8F2A0F781600C2234B /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,7 @@
 		E43EFA7E2A0F763400C2234B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E43EFA802A0F763400C2234B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E43EFA832A0F763400C2234B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E43EFA8A2A0F779800C2234B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +30,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E43EFA902A0F781600C2234B /* RealmSwift in Frameworks */,
+				E43EFA8E2A0F781600C2234B /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +60,7 @@
 				E43EFA7C2A0F763400C2234B /* RealmToDo_1App.swift */,
 				E43EFA7E2A0F763400C2234B /* ContentView.swift */,
 				E43EFA802A0F763400C2234B /* Assets.xcassets */,
+				E43EFA8A2A0F779800C2234B /* Launch Screen.storyboard */,
 				E43EFA822A0F763400C2234B /* Preview Content */,
 			);
 			path = "RealmToDo-1";
@@ -83,6 +90,10 @@
 			dependencies = (
 			);
 			name = "RealmToDo-1";
+			packageProductDependencies = (
+				E43EFA8D2A0F781600C2234B /* Realm */,
+				E43EFA8F2A0F781600C2234B /* RealmSwift */,
+			);
 			productName = "RealmToDo-1";
 			productReference = E43EFA792A0F763400C2234B /* RealmToDo-1.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +122,9 @@
 				Base,
 			);
 			mainGroup = E43EFA702A0F763400C2234B;
+			packageReferences = (
+				E43EFA8C2A0F781600C2234B /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = E43EFA7A2A0F763400C2234B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E43EFA8B2A0F779800C2234B /* Launch Screen.storyboard in Resources */,
 				E43EFA842A0F763400C2234B /* Preview Assets.xcassets in Resources */,
 				E43EFA812A0F763400C2234B /* Assets.xcassets in Resources */,
 			);
@@ -273,6 +288,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,6 +318,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -339,6 +356,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E43EFA8C2A0F781600C2234B /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E43EFA8D2A0F781600C2234B /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E43EFA8C2A0F781600C2234B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		E43EFA8F2A0F781600C2234B /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E43EFA8C2A0F781600C2234B /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E43EFA712A0F763400C2234B /* Project object */;
 }
