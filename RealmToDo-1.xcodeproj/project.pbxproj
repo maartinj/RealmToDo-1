@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E43EFA7D2A0F763400C2234B /* RealmToDo_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43EFA7C2A0F763400C2234B /* RealmToDo_1App.swift */; };
-		E43EFA7F2A0F763400C2234B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43EFA7E2A0F763400C2234B /* ContentView.swift */; };
+		E43EFA7F2A0F763400C2234B /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43EFA7E2A0F763400C2234B /* ToDoListView.swift */; };
 		E43EFA812A0F763400C2234B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43EFA802A0F763400C2234B /* Assets.xcassets */; };
 		E43EFA842A0F763400C2234B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E43EFA832A0F763400C2234B /* Preview Assets.xcassets */; };
 		E43EFA8B2A0F779800C2234B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E43EFA8A2A0F779800C2234B /* Launch Screen.storyboard */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		E43EFA792A0F763400C2234B /* RealmToDo-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RealmToDo-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E43EFA7C2A0F763400C2234B /* RealmToDo_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmToDo_1App.swift; sourceTree = "<group>"; };
-		E43EFA7E2A0F763400C2234B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E43EFA7E2A0F763400C2234B /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 		E43EFA802A0F763400C2234B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E43EFA832A0F763400C2234B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E43EFA8A2A0F779800C2234B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 			children = (
 				E43EFA7C2A0F763400C2234B /* RealmToDo_1App.swift */,
 				E43EFA912A0F7A0B00C2234B /* Models */,
-				E43EFA7E2A0F763400C2234B /* ContentView.swift */,
+				E43EFA7E2A0F763400C2234B /* ToDoListView.swift */,
 				E43EFA802A0F763400C2234B /* Assets.xcassets */,
 				E43EFA8A2A0F779800C2234B /* Launch Screen.storyboard */,
 				E43EFA822A0F763400C2234B /* Preview Content */,
@@ -164,7 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E43EFA932A0F7A2700C2234B /* ToDo.swift in Sources */,
-				E43EFA7F2A0F763400C2234B /* ContentView.swift in Sources */,
+				E43EFA7F2A0F763400C2234B /* ToDoListView.swift in Sources */,
 				E43EFA7D2A0F763400C2234B /* RealmToDo_1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
