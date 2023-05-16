@@ -7,6 +7,17 @@
 
 // Film: https://www.youtube.com/watch?v=nx3KDnqMU0M&list=PLBn01m5Vbs4B8xgS_iEEuJtM_3BuZ7fiV&ab_channel=StewartLynch
 
+// Useful links:
+// Realm Website:
+// https://realm.io
+//
+// Realm Property Types:
+// https://www.mongodb.com/docs/realm/sdk/swift/model-data/supported-types/
+//
+// Realm SDK Repo:
+// https://github.com/realm/realm-swift
+
+
 import SwiftUI
 import RealmSwift
 
