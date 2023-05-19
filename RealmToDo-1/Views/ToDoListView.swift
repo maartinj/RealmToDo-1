@@ -42,13 +42,13 @@ struct ToDoListView: View {
                         Image(systemName: "plus.circle.fill")
                     }
                     .disabled(name.isEmpty)
-
                 }
                 .padding()
                 List() {
                     ForEach(toDos) { toDo in
-                        Text(toDo.name)
+                        ToDoListRow(toDo: toDo)
                     }
+                    .onDelete(perform: $toDos.remove)
                     .listRowSeparator(.hidden)
                 }
                 .listStyle(.plain)
